@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+      
+     
+
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: bwhite;
+  background:;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#btn:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+<h1 class="mt-12 pl-12 bg-red-500 text-white text-center ">Our Popular Testy <span> Foods </span>  </h1>
+<p class="text-center mt-9">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, id.</p>
+<div class="flex gap-5 justify-center mt-12">
+    <button class="bg-red-400 py-1 px-2 text-white rounded-md">Ram</button>
+    <button class="bg-red-400 py-1 px-2 text-white rounded-md">Ram</button>
+    <button class="bg-yellow-400 py-1 px-2 text-white rounded-md">Sarya</button>
+    <button class="bg-blue-400 py-1 px-2 text-white rounded-md">ne</button>
+    <button class="bg-pink-400 py-1 px-2 text-white rounded-md">hlo</button>
+</div>
+<div class="flex ">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+</div>
+
+<button id="btn">Button</button>
+<button class="button-85" role="button">Button 85</button>
+<div class="button-85">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis tempore beatae magnam quidem, id a libero ex eaque odio quisquam hic labore suscipit consequatur pariatur rem fugit fugiat. Reprehenderit in assumenda velit ab cupiditate maxime pariatur iusto illo, voluptatum, impedit iure fuga molestias dolores tempore.
+</div>
+  
+
+<section class="bg-white dark:bg-gray-900"></section>
+    <div class="container px-6 py-10 mx-auto">
+        <div class="lg:-mx-6 lg:flex lg:items-center">
+            <img class="object-cover object-center lg:w-1/2 lg:mx-6 w-full h-96 rounded-lg lg:h-[36rem]" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+            <div class="mt-8 lg:w-1/2 lg:px-6 lg:mt-0">
+                <p class="text-5xl font-semibold text-blue-500 ">“</p>
+
+                <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl lg:w-96">
+                    Help us improve our productivity
+                </h1>
+
+                <p class="max-w-lg mt-6 text-gray-500 dark:text-gray-400 ">
+                    “ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                    tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                    aperiam dolorum, obcaecati corrupti aspernatur a. ”
+                </p>
+
+                <h3 class="mt-6 text-lg font-medium text-blue-500">riya </h3>
+                <p class="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
+
+                <div class="flex items-center justify-between mt-12 lg:justify-start">
+                    <button title="left arrow" class="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+
+                    <button title="right arrow" class="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 dark:border-gray-700 dark:text-gray-200 dark:hover:bg-gray-800 lg:mx-6 hover:bg-gray-100">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </section>
+</body>
+</html>

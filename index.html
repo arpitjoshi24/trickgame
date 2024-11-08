@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="img\burger.webp" class="h-8" alt="LOGO" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Arpit</span>
+          </a>
+          <button id="toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <li>
+                <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+      <!-- hero section -->
+      
+      <section class="md:flex block md:my-36 md:gap-12 md:mx-36 justify-around ">
+            <div class=" ">
+                <h1 class=" text-3xl md:text-5xl font-bold text-center">WELCOME TO OUR <span class="text-red-600">SHOP</span> </h1>
+                <p class="my-12 mx-6 md:mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum illum! Dolorem ex rerum dicta pariatur, quia temporibus, sint est id rem nihil distinctio aspernatur, iure laborum maiores perspiciatis mollitia. Officiis earum expedita delectus.</p>
+                <div class="my-12 mx-12 md:mx-0 flex gap-12">
+                    <button class="bg-yellow-300 py-1 px-2 rounded-2xl hover:bg-yellow-500">ORDER NOW</button>
+                    <button class="border-2 border-black py-1 px-2 rounded-2xl"> book a table</button>
+                </div>
+            </div>
+            <div>
+                <img class="" src="img\burger.webp" alt="" width="1000rem" height="1000rem">
+            </div>
+      </section>
+
+      <!-- hero end -->
+
+      <section class="md:flex px-20 md:mx-0 justify-around  bg-gray-200 py-6">
+        <div class=""><img src="img\burger.webp" alt="" width="200rem">
+        </div>
+        <div class=""><img src="img\pasta.webp" alt="" width="200rem" height="200rem"></div>
+        <div class=""><img src="img\burger.webp" alt="" width="200rem" height="200rem"></div>
+        <div class=""><img src="img\french fries.webp" alt="" width="200rem" height="200rem"></div>
+        <div class=""><img src=" img\coke.webp" alt="" width="200rem" height="200rem"></div>
+        <div class=""><img src=" img\pasta.webp" alt="" width="200rem" height="200rem"></div>
+      </section>
+
+      <!-- add section -->
+
+      <section class="md:flex border-2 border-black my-36 mx-4 md:mx-0">
+        <div class="border-2 bg-red-600 text-white border-black py-12">
+            <h2 class="px-12">paasta</h2>
+            <p class="px-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, reiciendis.</p>
+        </div>
+        <div class="border-2 bg-slate-800 text-white border-black py-12">
+            <h2 class="px-12">   noodle</h2>
+            <p class="px-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, reiciendis.</p>
+        </div>
+        <div class="border-2 bg-yellow-600 text-white border-black py-12">
+            <h2 class="px-12 ">combo</h2>
+            <p class="px-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, reiciendis.</p>
+        </div>
+      </section>
+
+      
+      <!-- about -->
+
+      <section class="md:flex my-36 gap-12 md:mx-36 mx-12  justify-around ">
+       
+        <div>
+            <img class="" src="img\burger.webp" alt="" width="1000rem" height="1000rem">
+        </div>
+        <div class=" ">
+            <h1 class="text-5xl font-bold text-center">WELCOME TO OUR <span class="text-red-600">SHOP</span> </h1>
+            <p class="my-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laborum illum! Dolorem ex rerum dicta pariatur, quia temporibus, sint est id rem nihil distinctio aspernatur, iure laborum maiores perspiciatis mollitia. Officiis earum expedita delectus.</p>
+            <div class="my-12 flex gap-12">
+                <button class="bg-yellow-300 py-1 px-2 rounded-2xl">ORDER NOW</button>
+                <button class="border-2 border-black py-1 px-2 rounded-2xl"> book a table</button>
+            </div>
+        </div>
+  </section>
+
+     <!-- add2 -->
+
+     <section class="md:flex justify-around  md:mx-12 mx-8  gap-12">
+       <div>
+        <h1 class="text-4xl font-bold">Lorem ipsum dolor sit.</h1>
+        <p class="font-semibold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam at culpa voluptate. Facilis natus minima enim error deserunt animi.
+        </p>
+       </div>
+       <div>
+        <img src="img\delievery.webp" alt="">
+       </div>
+       <div>
+        <h1 class="text-4xl font-bold">Lorem ipsum dolor sit.</h1>
+        <p class="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam at culpa voluptate. Facilis natus minima enim error deserunt animi.
+        </p>
+       </div>
+     </section>
+
+<!-- menu section -->
+
+   <section class="my-12">
+    <h1 class="text-center py-12">OUR MENU</h1>
+   </section>
+    
+      <script>
+        let toggle = document.querySelector('#toggle');
+ let navbar = document.querySelector('#navbar-default');
+ 
+ toggle.addEventListener('click', () => {
+  
+   navbar.classList.toggle('hidden');
+ });
+      </script>
+</body>
+</html>
